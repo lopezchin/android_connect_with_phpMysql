@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidConnectingToPhpMySQLActivity!</string>
+    <string name="app_name">MainScreen</string>
+    <string name="addproduct">Add New Products</string>
+    <string name="viewproduct">View Products</string>
+    <string name="delete">Delete</string>
+    <string name="savechanges">Save Changes</string>
+    <string name="desc">Description</string>
+    <string name="price">Price</string>
+    <string name="productname">Product Name</string>
+    <string name="createproduct">Create Product</string>
+
+</resources>

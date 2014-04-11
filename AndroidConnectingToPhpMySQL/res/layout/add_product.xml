@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/productname"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="17sp"/>
+    
+    <!-- Input Name -->
+	<EditText android:id="@+id/inputName"
+	    android:inputType="text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:layout_marginBottom="15dp"
+	    android:singleLine="true"/>
+	
+	<!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="17sp"/>
+    
+    <!-- Input Price -->
+	<EditText android:id="@+id/inputPrice" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:layout_marginBottom="15dp"
+	    android:singleLine="true"
+	    android:inputType="numberDecimal"/>
+	
+	<!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="17sp"/>
+    
+    <!-- Input description -->
+	<EditText android:id="@+id/inputDesc" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:hint="@string/desc"
+	    android:layout_marginBottom="15dp"
+	    android:lines="4"
+	    android:gravity="top"/>
+	
+	<!-- Button Create Product -->
+	<Button android:id="@+id/btnCreateProduct" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/createproduct"/>
+	
+</LinearLayout>
